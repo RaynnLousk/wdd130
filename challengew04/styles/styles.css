@@ -1,0 +1,59 @@
+
+body {
+    background-color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    font-size: 3em;    
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.quote {
+    color: white;
+}
+.text {
+    font-weight: 100;
+}
+h2 {
+    font-size: 1em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.name {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+    list-style-position: inside;
+    font-weight: bold;
+}
+img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+header:hover {
+    color: black;
+}
