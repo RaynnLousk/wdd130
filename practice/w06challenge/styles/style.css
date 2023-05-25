@@ -1,0 +1,34 @@
+.cherries{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+#title{
+    z-index: 1;
+    font-size: 1350%;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin: auto;
+}
+#image{
+    grid-row:1/4;
+    grid-column: 1/2;
+    height: 3fr;
+    margin: auto;
+}
+#declare{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    font-size: 500%;
+    margin: auto;
+    font-weight: bold;
+    color: darkred;
+    background-color: grey;
+    z-index: 1;
+}
+#nothing{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: grey;
+    color: grey;
+}

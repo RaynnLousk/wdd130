@@ -20,7 +20,7 @@ nav a:hover {
 }
 .home-title {
     color: aqua;
-    font-family: 'Libre Baskerville', serif,'Times New Roman', Times, serif,'Geogia',serif;
+    font-family: 'Libre Baskerville','Times New Roman','Geogia', serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -44,7 +44,7 @@ main section img{
 }
 body {
     background-color: #2E5077;
-    font-family: 'Roboto',sans-serif,Arial, Helvetica, sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto','Arial','Tahoma',sans-serif;
     color: rgb(185, 117, 27);
     font-size: 22px;
     margin: 0;
@@ -55,7 +55,7 @@ h2{
 }
 header {
     background-color: #0e7b81;
-    font-family: 'Libre Baskerville', serif,'Times New Roman', Times, serif,'Geogia',serif;
+    font-family: 'Libre Baskerville','Times New Roman','Geogia', serif;
 }
 
 .book, .join {
