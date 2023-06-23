@@ -70,6 +70,34 @@ nav a:hover {
     display: inline;
     grid-column: 3/4;
 }
+.msg2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    
+}
+.msg2 p{
+    grid-column: 2/4;    
+    background-color: #A27035;
+    color: #faf4d3;
+    font-family: 'Roboto','Arial','Tahoma',sans-serif;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 1.5em;
+    padding: 15px;
+}
+.pictured{
+    grid-column: 3/9;
+}
+.card{
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imageless{
+    grid-column: 3/9;
+}
 footer{
     display: flex;
     text-align: center;
