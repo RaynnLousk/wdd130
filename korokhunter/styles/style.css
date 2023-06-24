@@ -88,16 +88,15 @@ nav a:hover {
     padding: 15px;
 }
 .pictured{
-    grid-column: 3/9;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
+
 .card{
     max-width: 250px;
     max-height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.imageless{
-    grid-column: 3/9;
 }
 footer{
     display: flex;
