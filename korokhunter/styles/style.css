@@ -4,6 +4,7 @@
 #content {
     margin: 0 auto;
     background-color: #5f00ba;
+    max-width: 100%;
 }
 nav {
     display: flex;
@@ -57,7 +58,7 @@ nav a:hover {
     font-size: 30px;
 }
 .image{
-    max-width: 800px;
+    max-width: 650px;
 }
 .botw-card {
     display: inline;
