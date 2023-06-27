@@ -112,17 +112,16 @@ nav a:hover {
     font-size: 30px;
 }
 .card{
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 100%;
     margin: 20px 20px 20px 20px;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .guide-text{
-    display: block;
+    width: 95%;
     background-color: #A27035;
     padding-left: 10px;
     box-shadow: 5px 5px 10px #04724D;
-    margin: 0 auto;
+    margin-left: auto;
 }
 .guide-text p{
     color: #faf4d3;
