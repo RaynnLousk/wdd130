@@ -24,6 +24,10 @@ nav a:hover {
     color: #faf4d3;
     font-size: 30px;
 }
+.button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
 #banner-box{
     margin: 0 auto;
     display: grid;
@@ -66,6 +70,10 @@ nav a:hover {
 }
 .botw-card:hover, .totk-card:hover{
     transform: scale(1.1);
+}
+.botw-card:active, .totk-card:active{
+    transform: scale(1.1);
+    opacity: 70%;
 }
 .totk-card {
     display: inline;
