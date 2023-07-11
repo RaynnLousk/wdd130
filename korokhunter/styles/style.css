@@ -147,7 +147,7 @@ nav a:hover {
     grid-row: 1/2;
 }
 .found2{
-    max-height: 70%;
+    max-height: 50%;
     margin: 20px 20px 20px 20px;
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 1/2;
